@@ -1,5 +1,5 @@
 <?php
-/*==============================================================================
+/*===============================================================================
 ***Code information
 **Developed by Alan Gonzalez Heras @ZuruhMX
 **Company: Inkworks Design Afiliated - The Coding Monkeys
