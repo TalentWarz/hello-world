@@ -1,0 +1,308 @@
+<style>
+
+
+img {
+
+}
+html {
+
+}
+body {
+	background:black;
+	background-image: url('pictures/spotlights.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100% 100%;	
+	height:100%;
+	width:100%;
+}
+#section_1 {
+	width:100%;
+	height:100%;
+	/*background-image: url("pictures/spotlights.png");
+	background-position: center center;
+	*/
+}
+#section_1_content {
+	width:970px;
+	height:545px;
+	margin-top:-100px;
+}
+#battle {
+	background:linear-gradient(
+      rgba(5, 0, 0, 0.45), 
+      rgba(5, 0, 0, 0.45)
+    );
+	height:545px;
+}
+#battle_top {
+	height:60px;
+	width:960px;
+	margin-top:65px;
+}
+#judge_stats_title {
+	margin-top:50px;
+	font-size:20px;
+	color:#ccac00;
+	font-weight:bold;
+}
+#battle_top_table {
+	width:960px;
+	font-size:30px;
+}
+#facebook{
+	margin-top:50px;
+	height:50px;
+	font-size:15px;
+	color:white;
+}
+#pleaseClick {
+	font-size:15px;
+	text-decoration:none;
+}
+#like {
+	height:20px;
+	width:40px;
+}
+#coming_soon {
+	margin-top:50px;
+	height:50px;
+	color:white;
+	font-size:15px;
+}
+#login_title {
+	width:960px;
+	color:#d7d7d7;
+	margin-top:25px;
+}
+
+
+
+
+
+
+
+a button {
+	font-size:40px;
+	color:#d7d7d7;
+}
+p {
+	font-size:20px;
+	color:#d7d7d7;
+}
+table {
+	width:960px;
+	height:50px;	
+	font-size:15px;
+	border-top:1px solid white;	
+}
+th {
+	text-align:center;
+	color:#d7d7d7;
+	font-size:30px;
+	font-weight:bold;
+}
+tr {
+	width:100px;
+}
+td {
+	text-align:center;
+	color:#ccac00;
+	font-size:15px;
+	font-weight:bold;
+	background-image: url("pictures/carbon.jpg");	
+}
+
+
+
+
+
+
+
+#results_title {
+	width:960px;
+	margin-top:-25px;
+	color:#d7d7d7;
+	height:40px;
+	margin-bottom:50px;
+}
+#results_title p {
+	font-size:30px;
+	margin-bottom:50px;
+}
+#results {
+	width:960px;
+	height:360px;
+}
+#results_player_1 {
+	width:480px;
+	height:180px;
+	float:left;
+}
+#results_player_2 {
+	width:480px;
+	height:180px;
+	float:right;
+}
+#results_player_1_id {
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	margin-top:50px;
+	height:40px;
+}
+#results_player_2_id {
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	margin-top:50px;
+	height:40px;	
+}
+#results table {
+	height:100px;
+	width:450px;
+	margin-top:25px;
+	background-image: url("pictures/dark-wood.jpg");
+}
+#results button {
+	margin-top:15px;
+}
+#results text {
+	margin-top:15px;
+}
+
+
+
+#support_us {
+	font-size:30px;
+	color:#d7d7d7;
+}
+#support_us a{
+	color:#d7d7d7;
+}
+
+
+#profile  {
+	height:420px;
+	width: 960px;
+	background:linear-gradient(
+      rgba(5, 0, 0, 0.45), 
+      rgba(5, 0, 0, 0.45)
+    );
+	margin-top:45px;
+	margin-bottom:15px;
+	border:5px solid black;
+}
+#profile table {
+	color:white;
+	width:450px;
+}
+#profile_col_1 {
+	width:150px;
+}
+#profile_col_2 {
+	color:white;
+	width:300px;
+}
+#profile_col_2 a {
+	font-size:15px;
+}
+#profile_player_id {
+	color:white;
+	font-size:30px;
+}
+#profile_video {
+
+}
+#profile_links {
+	color:white;
+	font-size:30px;
+}
+#about {
+	width:100%;
+	height:100%;
+}
+#about_tw {
+	width:970px;
+	height:545px;
+	 border-bottom:1px solid white;
+	 background:linear-gradient(
+	  rgba(5, 0, 0, 0.45), 
+	  rgba(5, 0, 0, 0.45)
+	);
+}
+@media screen and (max-width:980px) {
+
+body {
+	
+}
+#section_1 {
+	margin-top:100px;
+}
+#nav_menu {
+	right:0;
+	clear:left;
+	position:absolute;
+	background:black;
+	z-index:9999;
+}
+nav {
+	text-align:center;
+	font-size:35px;
+}
+nav a {
+	color:#a8a8a8;
+}
+
+
+#myPID {
+	font-size:30px;
+}
+#section_2 {
+	margin-top:100px;
+}
+#video_stats table{
+	margin-top:25px;
+}
+#video_stats td {
+	font-size:30px;
+}
+#about_tw {
+	 height:7000px;
+	 width:960px;
+	 background:linear-gradient(
+	  rgba(5, 0, 0, 0.45), 
+	  rgba(5, 0, 0, 0.45)
+	);
+}
+#facebook{
+	margin-top:75px;
+	font-size:25px;
+
+}
+#pleaseClick {
+	font-size:25px;
+	text-decoration:none;
+}
+#like {
+	height:50px;
+	width:100px;
+}
+#coming_soon {
+	margin-top:75px;
+	font-size:35px;
+}
+
+
+
+}
+
+
+@media screen and (max-width:896px) {
+
+
+
+}
+
+</style>
